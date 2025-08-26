@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZCFA Context Intake",
+  "type": "object",
+  "properties": {
+    "when": {
+      "type": "string",
+      "description": "Date/heure (ISO ou texte)"
+    },
+    "where": {
+      "type": "string"
+    },
+    "people_present": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "what_happened": {
+      "type": "string"
+    },
+    "usual_habits": {
+      "type": "string",
+      "description": "Ce qui se passe d'habitude"
+    },
+    "boundaries_said": {
+      "type": "string",
+      "description": "Limites déjà exprimées"
+    },
+    "safety_risk": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "what_happened"
+  ]
+}

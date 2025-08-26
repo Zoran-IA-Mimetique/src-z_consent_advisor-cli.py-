@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Zoran‑Consent‑First‑Advisor"
+message: "If you use this work, please cite it."
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    affiliation: "Zoran aSiM"
+    email: "tabary01@gmail.com"
+date-released: "2025-08-26"
+license: "MIT"
+repository-code: "https://github.com/AIformpro/Zoran-Consent-First-Advisor"
